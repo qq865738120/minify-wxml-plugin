@@ -1,0 +1,38 @@
+{
+  "name": "minify-wxml-plugin",
+  "description": "A webpack plugin specific to minify wxml file",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "xchunzhao@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "umi-tools build",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish --any-branch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/webpack": "^4.41.21",
+    "babel-core": "^7.0.0-0",
+    "babel-preset-umi": "^1.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.8",
+    "np": "^7.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7",
+    "umi-tools": "^0.4.0"
+  },
+  "babel": {
+    "presets": [
+      "umi"
+    ]
+  },
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
