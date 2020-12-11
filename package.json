@@ -1,7 +1,7 @@
 {
   "name": "minify-wxml-plugin",
   "description": "A webpack plugin specific to minify wxml file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "author": "xchunzhao@gmail.com",
   "license": "MIT",
